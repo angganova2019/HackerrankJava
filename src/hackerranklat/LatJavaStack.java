@@ -10,6 +10,12 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+ *  {}()
+    ({()})
+    {}(
+    []
  */
 public class LatJavaStack {
 

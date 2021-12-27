@@ -10,6 +10,9 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input:
+ *  madam
  */
 public class LatStringReverse {
 

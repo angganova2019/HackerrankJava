@@ -15,6 +15,10 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+ *  6 3
+    5 3 5 2 3 2
  */
 public class LatJavaDequeue {
 

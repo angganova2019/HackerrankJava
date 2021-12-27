@@ -10,6 +10,8 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input :
+ *  3
  */
 public class HackerrankLat {
 

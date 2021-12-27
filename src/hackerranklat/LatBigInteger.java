@@ -11,6 +11,10 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+ *  1234
+    20
  */
 public class LatBigInteger {
 

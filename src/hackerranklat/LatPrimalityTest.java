@@ -13,6 +13,9 @@ import java.math.BigInteger;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+ *  13
  */
 public class LatPrimalityTest {
 

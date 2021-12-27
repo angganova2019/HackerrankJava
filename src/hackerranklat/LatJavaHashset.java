@@ -11,6 +11,14 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+ *  5
+    john tom
+    john mary
+    john tom
+    mary anna
+    mary anna
  */
 public class LatJavaHashset {
 

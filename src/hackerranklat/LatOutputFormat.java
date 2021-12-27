@@ -10,6 +10,10 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input : 
+ *  java 100
+    cpp 65
+    python 50
  */
 public class LatOutputFormat {
 

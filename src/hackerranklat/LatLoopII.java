@@ -10,6 +10,10 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input :
+ *  2
+    0 2 10
+    5 3 5
  */
 public class LatLoopII {
 

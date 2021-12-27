@@ -37,6 +37,15 @@ public class LatJavaComparator {
 
     /**
      * @param args the command line arguments
+     * 
+     * sample input : 
+     *  5
+        amy 100
+        david 100
+        heraldo 50
+        aakansha 75
+        aleksa 150
+     * 
      */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

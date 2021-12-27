@@ -10,6 +10,9 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input :
+ *  Helloworld
+    3 7
  */
 public class LatStringSubstring {
 

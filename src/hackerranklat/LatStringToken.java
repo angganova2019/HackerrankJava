@@ -10,6 +10,9 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+ *  He is a very very good boy, isn't he?
  */
 public class LatStringToken {
 

@@ -11,6 +11,13 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+    5 4
+    AND 1 2
+    SET 1 4
+    FLIP 2 2
+    OR 2 1
  */
 public class LatBitSet {
 
