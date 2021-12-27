@@ -12,11 +12,11 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
 
-class Student{
+class Students{
 	private int id;
 	private String fname;
 	private double cgpa;
-	public Student(int id, String fname, double cgpa) {
+	public Students(int id, String fname, double cgpa) {
 		super();
 		this.id = id;
 		this.fname = fname;
@@ -52,21 +52,21 @@ public class LatJavaSort {
         Scanner in = new Scanner(System.in);
         int testCases = Integer.parseInt(in.nextLine());
         
-        List<Student> studentList = new ArrayList<Student>();
+        List<Students> studentList = new ArrayList<Students>();
         while(testCases>0){
             int id = in.nextInt();
             String fname = in.next();
             double cgpa = in.nextDouble();
             
-            Student st = new Student(id, fname, cgpa);
+            Students st = new Students(id, fname, cgpa);
             studentList.add(st);
             testCases--;
         }
         
         // jika ArrayList gunakan collections.sort, jika Array bisa gunakan Arrays.sort
-        Collections.sort(studentList, Comparator.comparing(Student::getCgpa).reversed().thenComparing(Student::getFname).thenComparing(Student::getId));
+        Collections.sort(studentList, Comparator.comparing(Students::getCgpa).reversed().thenComparing(Students::getFname).thenComparing(Students::getId));
         
-        for(Student st: studentList){
+        for(Students st: studentList){
             System.out.println(st.getFname());
         }
     }    

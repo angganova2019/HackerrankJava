@@ -37,13 +37,15 @@ public class LatJava2DArray {
         });
 
         bufferedReader.close();
-        
-        for (int i = 0; i < 6; i++) {
-            for (int j = 0; j < 6; j++) {
-                if (j < 3) {
-                    
-                }
+        int max_sum = Integer.MIN_VALUE;
+        for (int i = 0; i < 6-2; i++) {
+            for (int j = 0; j < 6-2; j++) {
+                int sum = arr.get(i).get(j) + arr.get(i).get(j+1) + arr.get(i).get(j+2) + arr.get(i+1).get(j+1) +
+                        arr.get(i+2).get(j) + arr.get(i+2).get(j+1) + arr.get(i+2).get(j+2);
+                
+                max_sum = Math.max(max_sum, sum);
             }
         }
+        System.out.println(max_sum);
     }
 }
