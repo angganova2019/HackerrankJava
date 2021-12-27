@@ -10,6 +10,10 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+ *  anagramm
+    marganaa
  */
 public class LatAnagrams {
 

@@ -10,6 +10,10 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input :
+ *  Hello world
+    I am a file
+    Read me until end-of-file.
  */
 public class LatEOF {
 

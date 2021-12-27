@@ -12,6 +12,8 @@ import java.io.InputStreamReader;
 /**
  *
  * @author cma
+ * sample input :
+ *  2
  */
 public class LatLoopI {
 

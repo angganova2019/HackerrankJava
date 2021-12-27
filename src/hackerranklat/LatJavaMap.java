@@ -11,6 +11,18 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+ *  3
+    uncle sam
+    99912222
+    tom
+    11122222
+    harry
+    12299933
+    uncle sam
+    uncle tom
+    harry
  */
 public class LatJavaMap {
 

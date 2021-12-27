@@ -10,6 +10,9 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input :
+ *  welcometojava
+    3
  */
 public class LatSubstringComparisons {
 

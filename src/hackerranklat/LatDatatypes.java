@@ -10,6 +10,13 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input :
+ *  5
+    -150
+    150000
+    1500000000
+    213333333333333333333333333333333333
+    -100000000000000
  */
 public class LatDatatypes {
 

@@ -10,6 +10,9 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input :
+ *  -1
+    2
  */
 public class LatInitializerBlock {
 

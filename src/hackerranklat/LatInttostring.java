@@ -10,6 +10,8 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input :
+ *  100
  */
 public class LatInttostring {
 

@@ -6,6 +6,7 @@
 package hackerranklat;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
@@ -32,6 +33,16 @@ class Student{
 	}
 }
 
+/*
+    sample input :
+    5
+    33 Rumpa 3.68
+    85 Ashis 3.85
+    56 Samiha 3.75
+    19 Samara 3.75
+    22 Fahim 3.76
+*/
+
 public class LatJavaSort {
 
     /**
@@ -52,6 +63,7 @@ public class LatJavaSort {
             testCases--;
         }
         
+        // jika ArrayList gunakan collections.sort, jika Array bisa gunakan Arrays.sort
         Collections.sort(studentList, Comparator.comparing(Student::getCgpa).reversed().thenComparing(Student::getFname).thenComparing(Student::getId));
         
         for(Student st: studentList){

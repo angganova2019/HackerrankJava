@@ -12,6 +12,8 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * sample input :
+ *  12324.134
  */
 public class LatCurrencyFormat {
 
