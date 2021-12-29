@@ -1,2 +1,0 @@
-hackerranklat.LatJavaGeneric
-hackerranklat.Printer

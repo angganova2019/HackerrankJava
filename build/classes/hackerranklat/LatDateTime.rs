@@ -1,2 +1,0 @@
-hackerranklat.Result
-hackerranklat.LatDateTime
