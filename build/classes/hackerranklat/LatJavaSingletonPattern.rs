@@ -1,0 +1,2 @@
+hackerranklat.LatJavaSingletonPattern
+hackerranklat.Singleton

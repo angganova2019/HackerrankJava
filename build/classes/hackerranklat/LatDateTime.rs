@@ -1,0 +1,2 @@
+hackerranklat.Result
+hackerranklat.LatDateTime

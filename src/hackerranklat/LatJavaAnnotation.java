@@ -15,20 +15,26 @@ import java.util.Scanner;
 /**
  *
  * @author cma
+ * 
+ * sample input :
+ * 3
+SENIOR 75
+JUNIOR 45
+SENIOR 40
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 @interface FamilyBudget {
 
     String userRole() default "GUEST";
-    int moneySpend() default 200;
+    int budgetLimit() default 0;
 //    ~~Complete the interface~~
 }
 
 class FamilyMember {
 
     /*~~Complete this line~~*/
-    @FamilyBudget
+    @FamilyBudget(userRole = "SENIOR", budgetLimit = 100)
     public void seniorMember(int budget, int moneySpend) {
         System.out.println("Senior Member");
         System.out.println("Spend: " + moneySpend);
@@ -36,7 +42,7 @@ class FamilyMember {
     }
 
 //        ~~Complete this line~~
-    @FamilyBudget
+    @FamilyBudget(userRole = "JUNIOR", budgetLimit = 50)
     public void juniorUser(int budget, int moneySpend) {
         System.out.println("Junior Member");
         System.out.println("Spend: " + moneySpend);
@@ -59,10 +65,10 @@ public class LatJavaAnnotation {
                     if (method.isAnnotationPresent(FamilyBudget.class)) {
                         FamilyBudget family = method.getAnnotation(FamilyBudget.class);
                         String userRole = family.userRole();
-                        int budgetLimit = /* complete this */ 0;
+                        int budgetLimit = family.budgetLimit();
                         if (userRole.equals(role)) {
-                            if () {
-                                method.invoke(FamilyMember.class.newInstance(), budgetLimit, spend);
+                            if (budgetLimit > spend) {
+                                method.invoke(FamilyMember.class.getDeclaredConstructor().newInstance(), budgetLimit, spend);
                             } else {
                                 System.out.println("Budget Limit Over");
                             }
