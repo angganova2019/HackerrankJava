@@ -1,2 +1,0 @@
-hackerranklat.LatJavaPrimeChecker
-hackerranklat.Prime

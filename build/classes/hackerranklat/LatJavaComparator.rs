@@ -1,3 +1,0 @@
-hackerranklat.LatJavaComparator
-hackerranklat.Player
-hackerranklat.Checker

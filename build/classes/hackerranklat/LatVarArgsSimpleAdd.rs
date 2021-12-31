@@ -1,2 +1,0 @@
-hackerranklat.Add
-hackerranklat.LatVarArgsSimpleAdd
