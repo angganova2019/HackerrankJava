@@ -19,7 +19,7 @@ import java.util.Scanner;
 -1 3
  */
 
-class MyCalculator {
+class MyCalculators {
     
     public long power(int n, int p) throws Exception{
         if(n == 0 && p == 0){
@@ -32,7 +32,7 @@ class MyCalculator {
 }
 
 public class LatJavaExceptionHandle {
-    public static final MyCalculator my_calculator = new MyCalculator();
+    public static final MyCalculators my_calculator = new MyCalculators();
     public static final Scanner in = new Scanner(System.in);
     
     public static void main(String[] args) {
